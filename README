@@ -1,0 +1,25 @@
+Program takes a data file (test) that has nodes and distances between them
+User can then run various commands such as the shortest path from source node to destination node
+Program will output total distance and each node visited along the path
+
+Example Output:
+
+----------MENU----------
+NODES
+los_angeles seattle las_vegas phoenix austin denver st_louis chicago detroit miami atlanta new_york  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+COMMANDS
+1: Shortest path from source to destination
+     Syntax: 1 source destination
+2: Shortest path from source to destination while visiting nodes on the way
+     Syntax: 2 source node node... destination
+3: Shortest path visitng all nodes starting from source
+     Syntax: 3 source
+4: Shortest path from source to destination avoiding middle node
+     Syntax: 4 source node destination
+5: Shortest path from source to destination and comming back to source (Round Trip)
+     Syntax: 5 source destination
+
+1 seattle st_louis
+RESPONSE:
+2165 seattle 1315 denver 850 st_louis

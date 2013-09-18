@@ -1,0 +1,16 @@
+12
+los_angeles seattle las_vegas phoenix austin denver st_louis chicago detroit miami atlanta new_york
+los_angeles las_vegas 265
+las_vegas denver 752
+las_vegas phoenix 292
+denver seattle 1315
+los_angeles phoenix 373
+phoenix austin 1006
+denver st_louis 850
+st_louis chicago 297
+st_louis atlanta 554
+chicago detroit 283
+detroit new_york 615
+new_york atlanta 866
+austin atlanta 932
+atlanta miami 662
